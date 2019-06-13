@@ -1,2 +1,5 @@
-sources:
+removed_sources:
   WoeUSB-3.1.4.tar.gz: ab1305358c4476e151407e791d3e2fd6b17382e6
+sources:
+  WoeUSB-3.2.12.tar.gz: 02c34ccfdc6f1578b0530896faf6e7607d1733f9
+  trad.mo: 88ecd5c014d272b1eb0d40ddb4a078928a39b911

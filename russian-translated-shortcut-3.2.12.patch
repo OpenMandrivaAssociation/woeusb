@@ -1,0 +1,12 @@
+--- WoeUSB-3.2.12/src/linux-menu/woeusbgui.desktop	2018-12-24 15:28:06.000000000 +0700
++++ WoeUSB-3.2.12-patch/src/linux-menu/woeusbgui.desktop	2019-02-17 23:18:57.320047283 +0700
+@@ -10,7 +10,7 @@
+ StartupNotify=true
+ Name=WoeUSB
+ Name[fr_FR]=WoeUSB
+-Name[zh_TW]=WoeUSB Windows 可開機 USB 製作工具
++Name[ru]=WoeUSB
+ Comment=Create Windows USB stick installer from a real Windows DVD or an image.
+ Comment[fr_FR]=Créer des clés USB d'installation de Windows depuis une image CD ou un dvd original.
+-Comment[zh_TW]=從一個既有的 Windows DVD 或光碟映像檔建立 Windows 可開機 USB 安裝碟
++Comment[ru]=Запись установочного ISO образа Windows на флешку.
