@@ -3,12 +3,12 @@
 
 Summary:	Creates Windows USB stick installer from a Windows DVD or image
 Name:		woeusb
-Version:	3.3.1
+Version:	5.2.4
 Release:	1
 License:	GPLv2
 Group:		System/Kernel and hardware
 Url:		https://github.com/slacka/WoeUSB
-Source0:	https://github.com/slacka/WoeUSB/archive/v%{version}.tar.gz?/%{rname}-%{version}.tar.gz
+Source0:	https://github.com/WoeUSB/WoeUSB/archive/v%{version}/%{rname}-%{version}.tar.gz
 Source1:	trad.mo
 Patch0:		russian-translated-shortcut-3.2.12.patch
 BuildRequires:	wxgtku3.0-devel 
