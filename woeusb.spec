@@ -10,7 +10,7 @@ Group:		System/Kernel and hardware
 Url:		https://github.com/slacka/WoeUSB
 Source0:	https://github.com/WoeUSB/WoeUSB/archive/v%{version}/%{rname}-%{version}.tar.gz
 Source1:	trad.mo
-Patch0:		russian-translated-shortcut-3.2.12.patch
+#Patch0:		russian-translated-shortcut-3.2.12.patch
 BuildRequires:	wxgtku3.0-devel 
 BuildRequires:	imagemagick
 BuildRequires:	jpeg-devel
@@ -51,7 +51,7 @@ Native UEFI booting is supported for Windows 7 and later images
 
 %prep
 %setup -qn %{rname}-%{version}
-%patch0 -p1
+#patch0 -p1
 
 %build
 autoreconf -fiv
