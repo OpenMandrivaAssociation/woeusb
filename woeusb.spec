@@ -11,6 +11,11 @@ Url:		https://github.com/slacka/WoeUSB
 Source0:	https://github.com/slacka/WoeUSB/archive/v%{version}.tar.gz?/%{rname}-%{version}.tar.gz
 Source1:	trad.mo
 Patch0:		russian-translated-shortcut-3.2.12.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	wxgtku3.0-devel 
 BuildRequires:	imagemagick
 BuildRequires:	jpeg-devel
